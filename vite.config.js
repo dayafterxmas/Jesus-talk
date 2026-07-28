@@ -1,11 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// ⚠️ GitHub Pages 배포 시 반드시 확인하세요.
-// 저장소 이름이 'jesus-talk'가 아니라면 아래 값을 '/실제저장소이름/'으로 바꿔주세요.
-// (예: 저장소가 omj-talk 라면 → '/omj-talk/')
-// Vercel / Netlify로 배포하거나 로컬에서 실행할 때는 '/' 로 두면 됩니다.
-const BASE_PATH = '/jesus-talk/'
+const BASE_PATH = '/Jesus-talk/'
 
 // JESUS TALK — 참가자 / 관리자 / LED 송출 3화면 SPA
 export default defineConfig(({ command }) => ({
